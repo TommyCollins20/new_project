@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexora Construction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>Nexora <span>Construction</span></h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#index">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="index" class="hero-section">
+            <div class="hero-content">
+                <h2>Welcome to Nexora Construction</h2>
+                <p>We specialize in delivering high-quality construction services with a focus on innovation and sustainability.</p>
+                <a href="#contact" class="hero-btn">Get Started</a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p class="about-lead">
+            Founded on the principles of integrity, innovation, and craftsmanship, Nexora Construction has established itself as a trusted partner in the building industry for over 20 years.
+        </p>
+        <p class="about-body">
+            We specialize in bringing complex architectural concepts to life, utilizing modern structural engineering techniques and eco-friendly practices. From initial site evaluation to final handoff, our team works closely with clients, architects, and local authorities to ensure every project meets rigorous safety standards, stays on budget, and stands the test of time.
+        </p>
+    </div>
+    </section>
+
+        <section id="services" class="content-section">
+    <div class="services-container">
+        <h2>Our Services</h2>
+        <p class="services-intro">
+            We offer comprehensive construction management and structural solutions tailored to meet the needs of modern commercial and residential developments.
+        </p>
+
+        <div class="services-grid">
+            <div class="service-box">
+                <h3>Residential Construction</h3>
+                <p>We build custom single-family homes, luxury estates, and multi-unit residential developments. Our team manages every phase—from foundational framing to fine interior finishing—to create comfortable, energy-efficient living spaces tailored to your lifestyle.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Commercial Construction</h3>
+                <p>From high-rise office buildings to retail centers and industrial warehouses, we deliver commercial facilities designed for operational efficiency. We focus on durable materials, smart layout planning, and timely execution to minimize disruption to your business goals.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Renovation & Remodeling</h3>
+                <p>We revitalize aging or outdated structures through comprehensive structural upgrades, space reconfigurations, and modern architectural refreshes. Whether expanding an existing layout or modernizing interiors, we restore value and functionality to your property.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Project Management</h3>
+                <p>Our end-to-end management services take the stress out of building. We oversee contract negotiation, material sourcing, site safety compliance, timeline scheduling, and quality control to ensure every project proceeds seamlessly from start to finish.</p>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <!-- Contact Section with Form -->
+        <section id="contact" class="content-section">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <p class="contact-subtitle">Get in touch with us today for project inquiries or to request a quote.</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Required</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="residential">Residential Construction</option>
+                            <option value="commercial">Commercial Construction</option>
+                            <option value="renovation">Renovation & Remodeling</option>
+                            <option value="management">Project Management</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+<footer>
+        <p>&copy; 2024 Nexora Construction. All rights reserved.</p>
+        
+    </footer>
+</body>
+</html>
